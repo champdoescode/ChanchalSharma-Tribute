@@ -1,0 +1,23 @@
+
+
+@media (min-width: 992px) {
+  .biography-grid-item .heading ul {
+    margin-top: 32px;
+  }
+  .biography-grid-item .heading ul li {
+    margin: 16px;
+  }
+
+  .biography-list-container .biography-grid-item:nth-child(odd) .heading {
+    order: 1;
+  }
+  .biography-list-container .biography-grid-item:nth-child(odd) .image {
+    order: 2;
+  }
+  .biography-list-container .biography-grid-item:nth-child(even) .heading {
+    order: 2;
+  }
+  .biography-list-container .biography-grid-item:nth-child(even) .image {
+    order: 1;
+  }
+}
